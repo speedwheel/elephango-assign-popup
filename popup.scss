@@ -1,0 +1,98 @@
+.assign-popup {
+    max-width: 800px;
+    width: 100%;
+    padding: 0!important;
+    .popup-head {
+        background: #2b343b;
+        color: #fff;
+        text-align: left;
+        padding: 0.75rem 1rem;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    .popup-body {
+        padding: 1.7rem 2.3rem;
+        .popup-thumb  {
+            margin-bottom: 1rem;
+        }
+        .popup-list {
+            background: #f9f9f9;
+            font-size: 0.7rem;
+            padding: 0.7rem;
+            .poup-list__item {
+                margin-bottom: 0.5rem;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .popup-form {
+            input {
+                padding: .75rem;
+                border-radius: 0;
+            }
+            .icon-lock {
+                position: absolute;
+                right: 10px;
+                bottom: 0;
+                top:0;
+                margin: auto;
+                content: "";
+                width: 17px;
+                height: 19px;
+                background: url(lock-icon.png) no-repeat;
+            }
+            label {
+                font-weight: bold;
+            }
+            .icon-wrapper {
+                input {
+                    padding: .75rem 2.25rem .75rem .75rem;
+                }
+                position: relative;
+            }
+            .note-instructions-counter {
+                text-align: right;
+                font-size: 0.8rem;
+            }
+        }
+        .form-bg {
+            background:#F9F9F9;
+            padding: 1rem;
+        }
+        .btn-warning {
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            &:not(:hover) {
+                background: #F9B233;
+            }
+        }
+    }
+    .fancybox-close-small {
+        &::after {
+            color: #fff;
+            font-size: 1.8rem;
+            font-weight: normal;
+            top: 9px;
+        }
+        
+    }
+}
+
+@media (max-width: 575.98px) {
+    .assign-popup {
+        .popup-body{
+            display: block!important;
+        }
+        .col-4, .col-8 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+        }
+        .col-4 {
+            margin-bottom: 2rem;
+        }
+    }
+}
