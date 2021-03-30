@@ -25,7 +25,7 @@ var AssignPopupModule = (function () {
               <label for="lesson-name">Lesson Name</label>  
               <div class="icon-wrapper">
                 <i class="icon-lock"></i>
-                <input id="lesson-name" type="text" class="form-control" placeholder="Ancient Pyramids">
+                <input id="lesson-name" type="text" class="form-control" placeholder="Ancient Pyramids" readonly>
               </div>
               
             </div>
