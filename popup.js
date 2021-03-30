@@ -33,7 +33,7 @@ var AssignPopupModule = (function () {
             <div class="form-bg mb-3">
               <div class="form-group">
                 <label for="note-instructions">Add a note or instruction <span class="font-weight-normal">(optional)</span></label>
-                <input maxlength="160" type="text" id="note-instructions" class="form-control" placeholder="Ancient Pyramids">
+                <input maxlength="160" type="text" id="note-instructions" class="form-control" placeholder="">
                 <div class="note-instructions-counter"></div>
               </div>
   
