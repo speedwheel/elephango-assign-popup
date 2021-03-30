@@ -1,5 +1,8 @@
 $( document ).ready(function() {
-  AssignPopupModule.init();
+  $('.data-fancybox-edu').on('click', function() {
+    AssignPopupModule.init();
+  });
+  
 });
 
 var AssignPopupModule = (function () {
